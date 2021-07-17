@@ -1,0 +1,33 @@
+.fix-side {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 230px;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  background-color: black;
+  /* z-index: 1200; */
+}
+
+.list-group-item {
+  background-color: transparent;
+  display: inline-flex;
+  padding: 0.4rem 0.8rem;
+}
+.list-group-item div {
+  margin-left: 30px;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover {
+  color: white !important;
+  text-decoration: none;
+  background-color: #495057;
+  border-radius: 10px;
+}
+
+.ListGroup.Item .spam {
+  justify-content: flex-start;
+}
