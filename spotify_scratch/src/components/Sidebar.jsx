@@ -9,7 +9,7 @@ import {
 } from "react-icons/io5"
 
 const Sidebar = () => (
-  <Navbar expand="lg" className="navbar-dark fix-side">
+  <Navbar className="navbar-dark fix-side">
     <Navbar.Brand href="#home">
       <img
         src="../assets/Spotify_Logo_White.png"
@@ -19,8 +19,7 @@ const Sidebar = () => (
         alt="Spotify white logo"
       />
     </Navbar.Brand>
-
-    <ListGroup className="mr-auto inline-flex">
+    <ListGroup className="mr-auto inline-flex mt-3">
       <ListGroup.Item action>
         <spam>
           <IoHomeOutline />
@@ -52,6 +51,7 @@ const Sidebar = () => (
         <div>Liked Songs</div>
       </ListGroup.Item>
     </ListGroup>
+    <hr className="bg-white" />
   </Navbar>
 )
 export default Sidebar
